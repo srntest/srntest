@@ -1,0 +1,67 @@
+<div class="row">
+    <div class="col-lg-2 sidebar">
+        <h1>
+            <a href="/" data-bind="navigate: 'index'">Søren Brokær</a>
+        </h1>
+
+        <span class="tagline">
+            Software-engineer &nbsp;<a href="https://podio.com" target="_blank">@Podio</a>, loves js, ruby, python and .net. 19 years old.
+        </span>
+
+        <ul>
+            <li>
+                <a href="https://twitter.com/soerenr" target="_blank">@soerenr</a>
+            </li>
+            <li>
+                <a href="https://github.com/soerenr" target="_blank">github</a>
+            </li>
+            <li>
+                <a href="http://linkedin.com/in/soerenr" target="_blank">linkedin</a>
+            </li>
+            <li>
+                <a href="/archive" data-bind="navigate: 'archive'">archive</a>
+            </li>
+            <li>
+                <a href="/feed.rss" target="_blank">rss</a>
+            </li>
+        </ul>
+
+        <span class="powered-by">
+            powered by &nbsp;<a href="https://github.com/soerenr/srn.js">srn.js</a>
+        </span>
+    </div>
+    <div class="col-lg-10 content">
+        <!--<section>-->
+            <!--<div>-->
+                <!--<h1><a href="new-apartment">New apartment </a></h1>-->
+
+                <!--<p>&nbsp;</p>-->
+
+                <!--<p><img src="http://distilleryimage4.s3.amazonaws.com/12f06d30f5ea11e1851d22000a1cf766_7.jpg"></p>-->
+            <!--</div>-->
+        <!--</section>-->
+        <!--<section>-->
+            <!--<div>-->
+                <!--<h1>-->
+                    <!--<a href="leaving-spiir">Leaving Spiir</a>-->
+                <!--</h1>-->
+
+                <!--<p>After one amazing year, I’m leaving <a href="http://spiir.dk">Spiir</a> in early July to find new-->
+                    <!--challenges. It’s been a great ride here and I’m very fortunate to have been able to work with some-->
+                    <!--of the most influential people in my entire life. </p>-->
+
+                <!--<p> I will be moving to Copenhagen in the next few months where I'll be joining the guys over at <a-->
+                        <!--href="http://www.miinto.dk/">miinto</a>.</p>-->
+            <!--</div>-->
+        <!--</section>-->
+        <!--<section><div class="post contain">-->
+            <!--<h1><a href="hello-world">Hello World</a></h1><p></p><p>Every blog needs a first post. So I figured it's probably a good idea to get it out of the way quickly. </p>-->
+
+            <!--<p> Originally I wrote this blog from the ground up in C# for the <a href="http://www.windowsazure.com/en-us/develop/overview/">Azure</a> platform using Table Storage and Blob Storage, I know, overkill, but since I've been wanting to develop a real application in <a href="http://nodejs.org/">NodeJS</a> I wanted to try something new. I've been using <a href="http://requirejs.org/">RequireJS</a> a lot lately, and combined with <a href="http://knockoutjs.com/">KnockoutJS</a> it's the perfect match for client side javascript applications, therefore it was also obvious that I wanted to use RequireJS on the server side, and there's only a few configurations needed for it to run perfectly with NodeJS. <a href="http://expressjs.com/">Express</a> and <a href="http://jade-lang.com/">Jade</a> seemed like the obvious choice after just a few minutes of reading up on NodeJS-frameworks. Express is quick to learn and start playing with, hence the name, while Jade requires a bit more reading up on the documentation and trial-by-error, but once I had the basics down I found Jade to be an extremely powerful view-engine and I can't see myself ever writing standard HTML again. Ever. </p>-->
+
+            <!--<p> As per data handling, I could've chosen the easy path and continued using Azure since there's already an <a href="http://www.windowsazure.com/en-us/develop/nodejs/">Azure SDK for NodeJS</a>, but as I mentioned earlier, I wanted to try something completely new, and I already had my eyes on <a href="http://redis.io/">Redis</a> and <a href="http://www.mongodb.org/">MongoDB</a>. I chose MongoDB because I already had experience using Redis. <a href="https://github.com/learnboost/mongoose">Mongoose</a> seemed like the strongest backed framework for MongoDB so I went straight ahead and added a MongoLab database to a new <a href="http://www.heroku.com/">Heroku</a> application. That's pretty much it, and definitely <em>not</em> overkill. </p>-->
+
+            <!--<p> You can find the source code for <a href="https://github.com/soerenr/srn.js">srn.js</a> and the original blog written for Azure on my <a href="https://github.com/soerenr">Github</a> profile.</p><p></p></div></section>-->
+        <div data-bind="view: currentPage"></div>
+    </div>
+</div>

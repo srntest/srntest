@@ -1,0 +1,152 @@
+@import url('vendor/bootstrap/bootstrap.css');
+
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+
+body {
+    font-family: 'Lato', Helvetica, sans-serif;
+    line-height: 1.8em;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 35px;
+    color:#555;
+}
+
+h1 a {
+    color:#555;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.sidebar {
+    padding: 20px 40px;
+    top:0;
+    bottom: 0;
+}
+
+@media screen and (max-width:999px)
+{
+    .sidebar {
+        padding: 10px 20px;
+        min-height:200px;
+    }
+}
+
+.sidebar span {
+    color: #888;
+    font-weight: 500;
+}
+
+.sidebar .tagline {
+    font-size: 12px;
+}
+
+.sidebar .powered-by {
+    font-size: 11px;
+    padding-top:10px;
+    float:left;
+    clear:both;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding:20px 0;
+}
+
+@media screen and (max-width:999px)
+{
+    .sidebar ul {
+        list-style-type: none;
+        padding:0;
+    }
+
+    .sidebar ul li {
+        float:left;
+        padding-right: 10px;
+    }
+}
+
+.content {
+    padding: 20px 40px;
+}
+
+@media screen and (max-width:999px)
+{
+    .content {
+        padding: 10px 20px;
+    }
+}
+
+.content section {
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.content section p {
+    color: #555;
+}
+
+
+.actions {
+    top: 0;
+    right: -60px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.actions li.date {
+    display: none;
+    margin:0 10px 0 0
+}
+
+.content section:hover li.date {
+    display: inline-block;
+    margin:0 10px 0 0
+}
+
+.archive {
+    padding: 0;
+}
+.archive li {
+    margin-bottom: 5px;
+    width: 100%;
+    list-style-type: none;
+    height:35px;
+    padding:5px;
+}
+.archive li:hover {
+    background:#F7F7F7;
+}
+.archive a {
+    min-width: 500px;
+    float: left;
+    border:0;
+}
+@media screen and (max-width:999px)
+{
+    .archive a {
+        max-width: 200px;
+        min-width:200px;
+    }
+}
+.archive span {
+    color: #8E8E8E;
+    font-size:14px;
+    float:right;
+}

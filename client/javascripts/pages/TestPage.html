@@ -1,0 +1,9 @@
+﻿<div data-bind="foreach: entries">
+    <section>
+        <div>
+            <h1><a data-bind="text: title, attr: { href: slug }, navigate: { routeId: 'single-entry', data: { year:2012, month: '06', slug:title } }"></a></h1>
+
+            <p data-bind="text: content"></p>
+        </div>
+    </section>
+</div>
